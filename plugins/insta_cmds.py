@@ -40,16 +40,16 @@ insta = Config.L
 buttons=InlineKeyboardMarkup(
     [
         [
-            InlineKeyboardButton("👨🏼‍💻Developer", url='https://t.me/subinps'),
-            InlineKeyboardButton("🤖Other Bots", url="https://t.me/subin_works/122")
+            InlineKeyboardButton("👨🏼‍💻Developer", url='https://t.me/Muhammedgalib'),
+            InlineKeyboardButton("Group", url="https://t.me/Tips_Tik_Discussion")
         ],
         [
-            InlineKeyboardButton("🔗Source Code", url="https://github.com/subinps/Instagram-Bot"),
-            InlineKeyboardButton("🧩Deploy Own Bot", url="https://heroku.com/deploy?template=https://github.com/subinps/Instagram-Bot")
+            InlineKeyboardButton("🔗Source Code", url="https://github.com/Galib792/Instagram"),
+            InlineKeyboardButton("🧩Deploy Own Bot", url="https://heroku.com/deploy?template=https://github.com/Galib792/Instagram")
         ],
         [
             InlineKeyboardButton("👨🏼‍🦯How To Use?", callback_data="help#subin"),
-            InlineKeyboardButton("⚙️Update Channel", url="https://t.me/subin_works")
+            InlineKeyboardButton("⚙️Update Channel", url="https://t.me/Tips_Tik")
         ]
 					
     ]
@@ -174,7 +174,7 @@ async def followers(bot, message):
         text_file = open(f"{username}'s followers.txt", "w")
         text_file.write(followers)
         text_file.close()
-        await bot.send_document(chat_id=chat_id, document=f"./{username}'s followers.txt", caption=f"{name}'s followers\n\nA Project By [XTZ_Bots](https://t.me/subin_works)")
+        await bot.send_document(chat_id=chat_id, document=f"./{username}'s followers.txt", caption=f"{name}'s followers\n\nA Project By [Tips Tik](https://t.me/Tips_Tik)")
         os.remove(f"./{username}'s followers.txt")
 
 
@@ -219,7 +219,7 @@ async def followees(bot, message):
         text_file = open(f"{username}'s followees.txt", "w")
         text_file.write(followees)
         text_file.close()
-        await bot.send_document(chat_id=chat_id, document=f"./{username}'s followees.txt", caption=f"{name}'s followees\n\nA Project By [XTZ_Bots](https://t.me/subin_works)")
+        await bot.send_document(chat_id=chat_id, document=f"./{username}'s followees.txt", caption=f"{name}'s followees\n\nA Project By [Tips Tik](https://t.me/Tips_Tik)")
         os.remove(f"./{username}'s followees.txt")
 
 
@@ -278,7 +278,7 @@ async def fans(bot, message):
         text_file = open(f"{username}'s fans.txt", "w")
         text_file.write(followers)
         text_file.close()
-        await bot.send_document(chat_id=chat_id, document=f"./{username}'s fans.txt", caption=f"{name}'s fans\n\nA Project By [XTZ_Bots](https://t.me/subin_works)")
+        await bot.send_document(chat_id=chat_id, document=f"./{username}'s fans.txt", caption=f"{name}'s fans\n\nA Project By [Tips Tik](https://t.me/Tips_Tik)")
         os.remove(f"./{username}'s fans.txt")
 
 
@@ -334,7 +334,7 @@ async def nfans(bot, message):
         text_file = open(f"{username}'s Non_followers.txt", "w")
         text_file.write(followers)
         text_file.close()
-        await bot.send_document(chat_id=chat_id, document=f"./{username}'s Non_followers.txt", caption=f"{name}'s Non_followers\n\nA Project By [XTZ_Bots](https://t.me/subin_works)")
+        await bot.send_document(chat_id=chat_id, document=f"./{username}'s Non_followers.txt", caption=f"{name}'s Non_followers\n\nA Project By [Tips Tik](https://t.me/Tips_Tik)")
         os.remove(f"./{username}'s Non_followers.txt")
 
 
